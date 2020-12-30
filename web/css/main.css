@@ -1,0 +1,166 @@
+@font-face {
+  font-family: 'SFProDisplay-Black';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Black.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-BlackItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-BlackItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-Bold';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Bold.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-BoldItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-BoldItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-Heavy';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Heavy.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-HeavyItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-HeavyItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-Light';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Light.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-LightItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-LightItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-Medium';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Medium.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-MediumItalc';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-MediumItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-Regular';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Regular.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-RegularItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-RegularItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-Semibold';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Semibold.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-SemiboldItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-SemiboldItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-Thin';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Thin.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-ThinItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-ThinItalic.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-UltraLight';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-UltraLight.woff2"); }
+
+@font-face {
+  font-family: 'SFProDisplay-UltraLightItalic';
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-UltraLightItalic.woff2"); }
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+  *:before, *:after {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  font-size: 16px;
+  font-weight: 500; }
+
+body {
+  font-family: SFProDisplay-Medium; }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  color: #0057b1; }
+
+.logo {
+  width: 75px;
+  height: auto;
+  margin-left: 3vw; }
+
+.navbar-brand {
+  padding: 5px 0px;
+  width: 75px;
+  height: auto; }
+
+.navbar-inverse {
+  background-color: #ffffff;
+  border-color: #ffffff; }
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #ffffff;
+  color: #0057b1; }
+
+.navbar-inverse .navbar-nav > li > a {
+  color: #000000;
+  padding: 10px 0px;
+  margin: 5px 15px; }
+  .navbar-inverse .navbar-nav > li > a:hover {
+    color: #0057b1; }
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
+  background-color: #ffffff;
+  color: #0057b1; }
+  .navbar-inverse .navbar-nav > .active > a::after, .navbar-inverse .navbar-nav > .active > a:hover::after, .navbar-inverse .navbar-nav > .active > a:focus::after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100%;
+    left: 0px;
+    height: 2px;
+    bottom: 20%;
+    background-color: #0057b1; }
+
+.bg-dots {
+  background-image: url(/img/dots.svg);
+  background-size: 21px 26px;
+  background-repeat: repeat; }
+  .bg-dots .col-md-6 {
+    padding: 0; }
+
+.greeting h1 {
+  text-align: center;
+  margin-top: 10%;
+  margin-bottom: 5%; }
+
+.greeting p {
+  margin: 0 auto;
+  margin-bottom: 5%;
+  max-width: 600px;
+  font-size: 18px;
+  line-height: 2; }
+
+.greeting .contacts {
+  text-align: center; }
+  .greeting .contacts .button {
+    display: inline-block;
+    border: 5px solid #0057b1;
+    border-radius: 11px;
+    padding: 9px 20px;
+    margin: 0 10px;
+    background-color: transparent;
+    text-decoration: none; }
+    .greeting .contacts .button:hover {
+      background-color: #0057b1;
+      color: #ffffff;
+      -webkit-transition: .15s;
+      -o-transition: .15s;
+      transition: .15s; }
+
+.doctor-main-picture img {
+  width: 100%; }
