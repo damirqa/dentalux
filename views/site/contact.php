@@ -8,11 +8,71 @@ use yii\helpers\Html;
 use yii\bootstrap\ActiveForm;
 use yii\captcha\Captcha;
 
-$this->title = 'Contact';
+$this->title = 'Контакты';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
-<div class="site-contact">
-    <h1><?= Html::encode($this->title) ?></h1>
+<div class="container" >
+    <h1 style="text-align: center;"><?= Html::encode($this->title) ?></h1>
+    <div class="row">
+        <div class="col-md-4">
+            <div>
+                <h2>Адреса</h2>
+                <div>
+                    <div>г. Уфа, Чернышевского 7</div>
+                    <div>+7 (347) 216 - 90 - 90</div>
+                </div>
+                
+                <div>
+                    <div>г. Уфа, Проспект Октября 126/6</div>
+                    <div>+7 (347) 235 - 92 - 02</div>
+                </div>
+            </div>
+            <div>
+                <h2>E-mail</h2>
+                <div>sk-dentalux@yandex.ru</div>
+            </div>
+            <div>
+                <h2>График работы</h2>
+                <div>ПН-ПТ 09:00 - 21:00</div>
+                <div>СБ 09:00 - 15:00</div>
+                <div>ВС - выходной</div>
+            </div>
+            <div>
+                <h2>Социальные сети</h2>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <h2>Карта</h3>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <div class="site-contact">
 
     <?php if (Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
 
@@ -64,5 +124,5 @@ $this->params['breadcrumbs'][] = $this->title;
             </div>
         </div>
 
-    <?php endif; ?>
+    <?php endif; ?> -->
 </div>

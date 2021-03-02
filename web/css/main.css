@@ -24,51 +24,51 @@
 
 @font-face {
   font-family: 'SFProDisplay-Light';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-Light.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Light.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-LightItalic';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-LightItalic.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-LightItalic.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-Medium';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-Medium.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Medium.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-MediumItalc';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-MediumItalic.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-MediumItalic.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-Regular';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-Regular.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Regular.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-RegularItalic';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-RegularItalic.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-RegularItalic.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-Semibold';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-Semibold.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Semibold.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-SemiboldItalic';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-SemiboldItalic.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-SemiboldItalic.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-Thin';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-Thin.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-Thin.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-ThinItalic';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-ThinItalic.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-ThinItalic.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-UltraLight';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-UltraLight.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-UltraLight.woff2") format("woff2"); }
 
 @font-face {
   font-family: 'SFProDisplay-UltraLightItalic';
-  src: url("/web/fonts/SFProDisplay/SFProDisplay-UltraLightItalic.woff2"); }
+  src: url("/web/fonts/SFProDisplay/SFProDisplay-UltraLightItalic.woff2") format("woff2"); }
 
 * {
   -webkit-box-sizing: border-box;
@@ -83,7 +83,7 @@ html, body {
   font-weight: 500; }
 
 body {
-  font-family: SFProDisplay-Medium; }
+  font-family: SFProDisplay-Medium, sans-serif; }
 
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   color: #0057b1; }
@@ -164,3 +164,158 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 
 .doctor-main-picture img {
   width: 100%; }
+
+.translucent-glass {
+  background-color: #FFFFFF;
+  border-radius: 15px;
+  text-align: center;
+  -webkit-box-shadow: inset;
+          box-shadow: inset; }
+  .translucent-glass img {
+    width: 100%;
+    height: auto;
+    border-radius: 15px; }
+  .translucent-glass .desc {
+    text-align: left;
+    color: #0057b1; }
+    .translucent-glass .desc ul {
+      list-style-type: none; }
+      .translucent-glass .desc ul li::before {
+        content: "- "; }
+    .translucent-glass .desc h2 {
+      color: #0057b1;
+      margin-left: 20px; }
+
+.smile {
+  margin-top: 50px; }
+  .smile img {
+    width: 100%;
+    height: auto; }
+
+.link-direction {
+  color: #FFFFFF; }
+  .link-direction:hover, .link-direction:focus {
+    color: #FFFFFF;
+    text-decoration: none; }
+
+.directions {
+  margin-top: 50px;
+  text-align: center;
+  color: white !important; }
+  .directions ul {
+    text-align: left;
+    padding-bottom: 15px;
+    margin-bottom: 0px; }
+    .directions ul li {
+      padding-bottom: 5px; }
+  .directions .row {
+    margin-top: 30px; }
+    .directions .row .col-md-4 {
+      padding-top: 15px;
+      padding-bottom: 15px; }
+  .directions .direction {
+    width: 100%;
+    height: auto;
+    background-color: #0057b1;
+    border-radius: 10px; }
+    .directions .direction .name-direction {
+      font-size: 36px;
+      margin-bottom: 15px; }
+    .directions .direction .desc {
+      text-align: left;
+      padding-bottom: 10px; }
+    .directions .direction img {
+      width: 70%;
+      height: auto; }
+  .directions h1 {
+    color: white; }
+
+.professionals {
+  margin-top: 50px; }
+  .professionals img {
+    width: 100%;
+    height: auto; }
+
+.doctors {
+  text-align: center;
+  margin-top: 50px; }
+  .doctors .slider__item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 0 33.3%;
+        -ms-flex: 0 0 0 33.3%;
+            flex: 0 0 0 33.3%;
+    max-width: 33.3%; }
+    .doctors .slider__item img {
+      width: 90%;
+      height: auto; }
+  .doctors .doctor {
+    border-radius: 15px;
+    background-color: white;
+    -webkit-box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.1);
+            box-shadow: 0 0 25px 1px rgba(0, 0, 0, 0.1); }
+    .doctors .doctor img {
+      width: 90%;
+      margin-top: 5%;
+      height: auto;
+      border-radius: 15px; }
+    .doctors .doctor p:last-of-type {
+      padding-bottom: 5%; }
+
+.reviews {
+  margin-top: 50px; }
+  .reviews .review {
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+    margin-bottom: 30px;
+    border: 2px solid #F7F8F9;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px #E7E8E9;
+            box-shadow: 10px 10px #E7E8E9; }
+    .reviews .review div {
+      margin-bottom: 5px; }
+    .reviews .review hr {
+      margin-top: 10px;
+      margin-bottom: 10px; }
+
+.certificates .certificate {
+  margin: auto 0; }
+  .certificates .certificate img {
+    margin: 0 auto;
+    width: 70%;
+    height: auto; }
+
+footer {
+  background-color: #0057b1;
+  color: white;
+  padding: 15px 0; }
+  footer .row .col, footer .row .col-md-4, footer .row .col-sm-6, footer .row .col-12 {
+    text-align: center;
+    margin: 5px 0; }
+  footer a {
+    color: white;
+    text-decoration: none;
+    position: relative;
+    -webkit-transition: all .6s;
+    -o-transition: all .6s;
+    transition: all .6s; }
+    footer a::before {
+      content: "";
+      width: 0;
+      height: 0.05em;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      background: white;
+      -webkit-transition: all .3s;
+      -o-transition: all .3s;
+      transition: all .3s; }
+    footer a:hover {
+      color: white; }
+      footer a:hover::before {
+        width: 100%;
+        left: 0; }
+    footer a .fab {
+      font-size: 24px; }
+
+body {
+  background-color: rgba(0, 0, 0, 0.01); }

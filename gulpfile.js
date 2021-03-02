@@ -49,7 +49,7 @@ gulp.task('updatePHP', function() {
 gulp.task('browser-sync', function() {
     browserSync({
         notify: false,
-        proxy: 'dental'
+        proxy: 'dentalux'
     });
 });
 
